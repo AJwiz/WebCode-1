@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;*/
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --big: #65647c;
+  --medium: #8b7e74;
+  --small: #c7bca1;
+  --tiny: #f1d3b3;
+}
+body {
+  background: linear-gradient(to left, #f0ece3, #fbf8f1);
+  font-family: 'Poppins', sans-serif;
+}
+.header {
+  color: var(--big);
+  top: 0;
+  z-index: 100;
+  height: 70px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 2px solid #e0c2ae;
+}
+ul {
+  list-style: none;
+}
+a:link,
+a:visited,
+a:active {
+  color: var(--big);
+}
+.nav_link {
+  cursor: pointer;
+  text-decoration: none;
+}
+#navigate {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+#words {
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  position: absolute;
+  padding-left: 100px;
+  color: var(--medium);
+}
+#imgsrc {
+  width: 100%;
+  height: 600px;
+}
+.section2 {
+  margin: 15px 0px;
+  padding: 5px 0px;
+  font-size: 22px;
+}
+#productsList,
+#brandsList,
+#search_btn {
+  color: var(--big);
+  background-color: var(--small);
+  border-radius: 20px;
+  border: none;
+  padding: 5px 5px;
+  width: 30%;
+  margin-right: 50px;
+}
+#search_btn {
+  color: var(--tiny);
+  background-color: var(--big);
+  margin-right: 0%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card {
+  font-size: 12px;
+  margin: 20px 0px;
+  color: var(--big);
+  background-color: var(--small);
+}
+#card_img {
+  margin-top: 15px;
+}
