@@ -79,7 +79,7 @@ const anchor4 = moreAttributes('a', 'href', '#contact', 'class', 'nav_link', 'Co
 //SECTION1 start
 const section1 = moreAttributes('section', 'class', 'intro', 'id', 'home', '')
 const subTitle = createEle('h4', 'id', 'words', 'Unveil Your True Colors with Our Makeup Essentials')
-const image1 = moreAttributes('img', 'src', '/img/makeuppic.jpg', 'alt', 'makupcolorpic')
+const image1 = moreAttributes('img', 'src', '/makeuppic.jpg', 'alt', 'makupcolorpic')
 image1.setAttribute('id', 'imgsrc')
 //end
 //SECTION2 start
